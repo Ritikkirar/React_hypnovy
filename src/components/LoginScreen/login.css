@@ -1,0 +1,77 @@
+.auth-fluid {
+  background: url("../../images/bg-auth.png");
+  background-size: cover;
+  align-items: stretch;
+  font-family: "Nunito", sans-serif;
+}
+
+.auth-fluid .auth-fluid-form-box {
+  max-width: 480px;
+  border-radius: 0;
+  z-index: 2;
+  padding: 3rem 3rem;
+  background-color: #ffffff;
+}
+
+.form-check-input:checked {
+  color: #fff !important;
+  border-color: #6658dd !important;
+  background-color: #6658dd !important;
+}
+
+.auth-fluid .auth-fluid-right {
+  padding: 6rem 3rem;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.auth-user-testimonial {
+  position: absolute;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+}
+.auth-user-testimonial p.lead {
+  font-size: 1.125rem;
+  margin: 0 auto 20px auto;
+  max-width: 700px;
+}
+.eye_icon {
+  margin-top: -10px;
+  margin-right: 16px;
+  color: #6c757d;
+}
+input#formBasicEmail::placeholder,
+input#formBasicPassword::placeholder {
+  color: #abadaf;
+}
+.forgot_password {
+  color: #abadaf;
+  font-size: 13px;
+}
+.forgot_password:hover {
+  color: #87888a;
+}
+.eyeicon_div {
+  background: #e9edf1;
+  height: 37px;
+  width: 55px;
+}
+.input-group-text {
+  width: 55px;
+  height: 37px;
+  position: absolute;
+  right: 0;
+  top: 32px;
+  border-radius: 0px !important;
+}
+input,
+input:focus {
+  color: #6c757d !important;
+}

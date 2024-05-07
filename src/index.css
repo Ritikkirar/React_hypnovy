@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body,
+.table,
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  color: #6c757d !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0px;
+  padding: 0px;
+  /* color: #343a40 !important; */
+}
+
+.text-un-assign {
+  font-size: 20px;
+  color: #847d7d;
+  margin-bottom: 15px;
+}
+
+.widget-rounded-circle-grey {
+  background: #fff;
+  margin-bottom: 15px;
+  border: 1px solid #b9433a14;
+}
+
+.bg-head {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-head h3 {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.bg-head p {
+  color: #fff !important;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.table-out .table {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.border-r {
+  border-right: 1px solid rgba(0, 0, 0, 0.33) !important;
+}
+
+table.assigned_request th,
+table.assigned_request td,
+table.transit_requests th,
+table.transit_requests td {
+  font-weight: 600;
+  color: #6c757d !important;
+}
+
+.bg-greens {
+  background-color: #7fd9c7 !important;
+}
+
+.bg-reds {
+  background-color: #b9433a !important;
+}
+
+.bg-soft-success {
+  background-color: rgba(26, 188, 156, 0.25);
+}
+.bg-soft-primary {
+  background-color: #6658dd40;
+}
+.bg-soft-info {
+  background-color: #4fc6e140;
+}
+.bg-soft-warning {
+  background-color: #f7b84b40;
+}
+.bg-soft-dark {
+  background-color: #323a4640 !important;
+}
+.bg-soft-danger {
+  background-color: #f1556c40 !important;
+}
+
+.btn-light {
+  background-color: #f3f7f9 !important;
+  border-color: #f3f7f9 !important;
+}
+
+.btn-light:hover {
+  background-color: #d9e7ee !important;
+  border-color: #d9e7ee !important;
+}
+
+:root {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+/* ----FULLSCREEN CSS------ */
+:not(:root):fullscreen::backdrop {
+  background: white !important;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+:not(:root):fullscreen {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.custom_dropdown_div {
+  background: #fff;
+  cursor: pointer;
+  padding: 6px 4px 6px 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+.form-control:focus {
+  border-color: #b2b4b7 !important;
+  box-shadow: none !important;
+}
+.add_route_btn {
+  padding: 8px 55px !important;
+  font-size: 0.875rem !important;
+  border-radius: 2px !important;
+}
+.current_date_show {
+  font-size: 0.875rem;
+  color: #6c757d !important;
+}
+.text-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* add bank card css  */
+.react-tel-input .form-control {
+  /* max-width: 300px !important; */
+  width: 100% !important;
+}
+.dropdown-menu {
+  --bs-dropdown-color: #6c757d !important;
+}
+.dropdown.custom_dropdown_div ul.date_dropdown_list {
+  font-size: 12px;
+}
+.dropdown.custom_dropdown_div li {
+  padding: 8px 12px;
+}
+.dropdown.custom_dropdown_div li.active_date {
+  background-color: #2684ff;
+  color: #fff;
+}
+.dropdown.custom_dropdown_div ul.date_dropdown_list li:hover {
+  background-color: #2684ff38;
+}
+
+.dropdown.custom_dropdown_div li:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+/*-------- React-Select Css START ------- */
+.select2__indicators svg {
+  margin-right: 0.8rem;
+}
+.css-t3ipsp-control:hover {
+  border-color: #6c757d !important;
+  box-shadow: none;
+  font-size: 0.875rem;
+}
+.css-1nmdiq5-menu {
+  font-size: 0.875rem;
+}
+.select2__control {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+.select2__value-container.select2__value-container--has-value
+  .select2__single-value {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+/*-------- React-Select Css END ------- */
+
+input.form-control.search-input::placeholder {
+  font-size: 0.875rem;
+  color: #adb5bd;
+}
+
+/* -------------------- Datepicker css Start -------------------- */
+.react-datepicker__time-container {
+  width: 120px !important ;
+}
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box {
+  width: 120px !important;
+}
+
+/* -------------------- Datepicker css End -------------------- */
+
+/* -------------------- Holiday date css Start -------------------- */
+.input-group .btn {
+  z-index: 0 !important;
+}
+/* -------------------- Holiday date css End -------------------- */
+
+.Create_btn {
+  padding: 8px 25px !important;
+}
+.react-time-input-picker-wrapper {
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin: 0 !important;
+}
+.card-box.project-box.deposit_card,
+.card-box.project-box.pickup_card {
+  height: 260px;
+}
+.table-user .route_name {
+  color: #6c757d !important;
+}
+.notification-count {
+  background-color: #0022ff;
+  color: white;
+  font-size: 12px;
+  padding: 0px 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 13px;
+  right: -8px;
+}
+
+/* Checkbox on add customer */
+.custom-checkbox-input {
+  visibility: hidden;
+  position: absolute;
+}
+
+.custom-checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: #6c757d;
+  font-size: 15px;
+  padding-left: 21px; /* Adjust the spacing as needed */
+  position: relative;
+}
+
+.custom-checkbox-label:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid #777;
+}
+
+input[type="checkbox"]:checked + .custom-checkbox-label:before {
+  background-color: #fff;
+}
+
+input[type="checkbox"]:checked + .custom-checkbox-label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 2.5px;
+  top: 7px;
+  width: 7.8px;
+  height: 7.8px;
+  background-color: #426ffd;
+  border-radius: 50%;
+}
+.react-datepicker__month-container {
+  float: left !important;
+}
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 992px) {
+  .inbox-widget .inbox-item .inbox-item-date {
+    position: static !important;
+  }
+  .inbox-widget .inbox-item .inbox-item-date {
+    position: static !important;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar-custom .m-4 {
+    margin: 0 8px !important;
+  }
+  .navbar-custom {
+    padding-right: 0px !important;
+  }
+  .navbar-custom .left-menu,
+  .navbar-custom .right-menu {
+    align-items: center;
+  }
+  .navbar-custom .left-menu img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .login-user img {
+    height: 30px;
+    margin-top: 13px;
+    width: 30px;
+  }
+  .login-user #dropdownMenu {
+    display: flex;
+  }
+
+  .content-page {
+    background-color: #f3f4f6;
+    font-family: Nunito, sans-serif;
+    margin-left: 0px !important;
+    min-height: auto;
+    overflow: hidden;
+    padding: 0px;
+  }
+  .content-page.mystyle {
+    -webkit-transform: translateX(0%) !important;
+    transform: translateX(0) !important;
+    width: 100% !important;
+  }
+  #header.toggle {
+    z-index: 9;
+  }
+  #header.toggle .pro-sidebar.collapsed {
+    width: 240px !important;
+  }
+  #root .content-page {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .content-page .card .card-body {
+    padding: 5px;
+  }
+  .content-page .card .card-body .inbox-widget .inbox-item .inbox-item-img {
+    margin-right: 4px;
+  }
+
+  .content-page .card .card-body .inbox-widget .inbox-item .inbox-item-date a {
+    font-size: 12px;
+    margin-right: 0px !important;
+    padding-right: 0;
+  }
+  .bg-head h3 {
+    font-size: 16px;
+  }
+  .bg-head p {
+    font-size: 20px;
+  }
+  .auth-fluid .auth-fluid-right {
+    padding: 0 !important;
+  }
+  .auth-brand {
+    margin-bottom: 50px;
+  }
+  .text-truncate {
+    white-space: break-spaces;
+  }
+  .content-page .card .card-body .inbox-widget {
+    max-height: min-content !important;
+  }
+  .inbox-widget .inbox-item .inbox-item-date {
+    position: sticky;
+  }
+  .current_date_show {
+    font-size: 15px;
+  }
+  #header.toggle {
+    display: block;
+  }
+  #header {
+    display: none;
+  }
+  .inbox-widget .inbox-item .inbox-item-text {
+    width: 85% !important;
+  }
+
+  .notification-count {
+    top: -10px;
+    right: -7px;
+  }
+
+  .table-responsive {
+    overflow: auto;
+  }
+}
+
+.inputWrapper{
+width:40px !important
+}
+
+
+.react-time-input-picker input[type="text"] {
+	
+	max-width: 27px !important
+
+}
